@@ -27,10 +27,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
 
       - name: Upload files to GoFile
-        uses: toiletpuppy/gofile@New
+        uses: 7jari/gofile-upload@v1
         with:
           files: "path/to/file1.txt path/to/file2.zip"
 ```
