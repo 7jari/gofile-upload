@@ -1,6 +1,9 @@
 name: 'GoFile Uploader'
 description: 'A GitHub Action to upload files to GoFile.io'
 author: 'toiletpuppy & 7jari'
+branding:
+  icon: upload
+  color: yellow
 inputs:
   files:
     description: 'Space-separated list of file paths to upload'
